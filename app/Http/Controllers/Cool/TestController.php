@@ -9,5 +9,8 @@ use App\Http\Requests;
 class TestController extends Controller
 {
     //
+    public  function  index(){
+        return 'cooler';
+    }
 }
 
